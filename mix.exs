@@ -63,12 +63,13 @@ defmodule PhoenixVapor.MixProject do
   defp deps do
     [
       {:phoenix_live_view, "~> 1.1"},
-      # nymph-ai fork: bumped to the volt 0.14 generation (vize 0.11 / oxc 0.15)
-      # so phoenix_vapor can coexist with volt 0.14 in the lampad app.
-      {:vize, "~> 0.11"},
-      {:oxc, "~> 0.15"},
-      {:quickbeam, "~> 0.10.8", optional: true},
-      {:volt, "~> 0.14", optional: true, runtime: false},
+      # nymph-ai fork. Upstream 0.3.0 caps oxc ~> 0.11.0, which pins the whole
+      # asset stack a generation back. These state the generation we actually
+      # run, so nothing has to reason about two-segment ~> semantics to see it.
+      {:vize, "~> 0.14"},
+      {:oxc, "~> 0.17"},
+      {:quickbeam, "~> 0.10.20", optional: true},
+      {:volt, "~> 0.17", optional: true, runtime: false},
       {:ex_doc, "~> 0.35", only: :dev, runtime: false}
     ]
   end
