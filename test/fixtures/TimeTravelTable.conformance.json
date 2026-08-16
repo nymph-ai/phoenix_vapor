@@ -1,0 +1,21 @@
+{
+  "format": "syrinx-v3b-dual-vize-conformance-v1",
+  "source": "TimeTravelTable.vue",
+  "sourceSha256": "f93c37898853f1c44584daa672cb97859db42ddf908bb52d00b1925f0295897a",
+  "backends": {
+    "phoenixVapor": {
+      "repository": "nymph-ai/phoenix_vapor",
+      "vizePackage": "0.14.1",
+      "clientJsBytes": 4815,
+      "clientJsSha256": "c3e57546c27e027f9a1c54b42014c027505372c2fa1201000f73bf04812e19a5",
+      "test": "test/syrinx_v3b_conformance_test.exs"
+    },
+    "syrinxRsx": {
+      "repository": "nymph-ai/vize",
+      "compilerRevision": "a2c52dbf3b9cba46dcb1e795f250df402050d963",
+      "rustSha256": "445ed7e9d2e3c9c46d6a3fd11e11fa98b2aed17514f4404273014ef3539e77da",
+      "coverageSha256": "76260d15a450862bd16f4e28b6e1fed4bb73b74499d5c207afb13d3190cf13b3",
+      "test": "crates/vize_atelier_syrinx/tests/backend.rs"
+    }
+  }
+}
