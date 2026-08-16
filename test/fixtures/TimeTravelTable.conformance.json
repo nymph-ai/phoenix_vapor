@@ -12,9 +12,9 @@
     },
     "syrinxRsx": {
       "repository": "nymph-ai/vize",
-      "compilerRevision": "a2c52dbf3b9cba46dcb1e795f250df402050d963",
-      "rustSha256": "445ed7e9d2e3c9c46d6a3fd11e11fa98b2aed17514f4404273014ef3539e77da",
-      "coverageSha256": "76260d15a450862bd16f4e28b6e1fed4bb73b74499d5c207afb13d3190cf13b3",
+      "compilerRevision": "1e8ccb490b6fd1e846c78cbcd071e1444f618e8f",
+      "rustSha256": "e709f04dd35c71a0ea1050905183a19f941d840e3c303b145efd8232e66f0994",
+      "coverageSha256": "300474e305e67eddb610604753a1c43eaccf170f814d5a17e1e6a0a1b7e3121c",
       "test": "crates/vize_atelier_syrinx/tests/backend.rs"
     }
   }
